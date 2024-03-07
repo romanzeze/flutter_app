@@ -59,7 +59,7 @@ class _IncrementScreenState extends State<IncrementScreen> {
                 errorText: _errorMessage.isNotEmpty ? _errorMessage : null,
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 30),
             Text(
               '$_counter',
               style: TextStyle(fontSize: 40),
